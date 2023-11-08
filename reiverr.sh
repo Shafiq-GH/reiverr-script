@@ -132,7 +132,7 @@ while true; do
         "install")
             clear
             _deps
-            _overseer_install
+            _reiverr_install
             _service
             break
             ;;
