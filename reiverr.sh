@@ -85,7 +85,7 @@ ExecStart=$(which node) dist/index.js
 [Install]
 WantedBy=multi-user.target
 EOF
-    port=$(_port 9494)
+    port=9494
     cat > ~/reiverr/env.conf << EOF
 # specify on which port to listen
 PORT=$port
